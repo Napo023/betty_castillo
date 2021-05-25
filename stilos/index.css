@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: #fff;
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+    
+}
+.nav-opcion-list{
+    width: 8%;
+   background: none;
+   position: absolute;
+   left: 0;
+   top: 4%;
+
+}
+.perfil{
+  width: 50px;
+  margin-left: 28px;
+  margin-top: 25px;
+
+}
+.nav-opcion-list{
+    margin-top: 40px;
+}
+.nav-opcion-list img{
+    
+    position: relative;
+    top:20px;
+    left: 40px;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+    width: 25px;
+    cursor: pointer;
+    padding: 12px 0 0 0;
+}
+.nav-opcion-list ul{
+    
+   
+}
+.repository{
+ 
+    width: 69%;
+    height: 92vh;
+    background-color: #fbf6f0;
+    border-radius: 15px;
+    position: absolute;
+    top: 4%;
+    left: 8%;
+    box-sizing: border-box;
+    
+  
+}
+.repository header{
+    padding: 20px 30px 0 30px;
+    width: 100%;
+    
+}
+.repository header ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #524e4f;
+    display: inline-flex;
+   padding: 5px 15px 0 15px;
+   cursor: pointer;
+   
+}
+.nav-opcion-list ul li i{
+    cursor: pointer;
+    color: #b9b9b9;
+    font-size: 25px;
+    padding: 10px 0 0px 20px;
+    margin: 10px 0 5px 20px;
+    transition: .3s;   
+}
+.nav-opcion-list ul li i:hover{
+    color: #ff547e;
+}
+.navbar-list a {
+    cursor: pointer;
+    color: #ff547e;
+    font-size: 25px;
+    transition: .3s;   
+    position: absolute;
+    display: block;
+    align-items: flex-end;
+    bottom: 40px;
+    left: 40px;
+    text-decoration: none;
+    
+}
+
+.directory{
+    position: relative;
+    background-color: none;
+    top: 25px;
+    bottom: 0;
+    font-size: 14px;
+    left:10px;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    padding: 0 25px;
+    box-sizing: border-box;
+    color: #414040;
+}
+.panel-info{
+    position: relative;
+    background-color: #fff;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 15px;
+    width: 93%;
+    height: 65vh;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px 58px rgba(0,0,0,0.10);
+
+}
+.tooltip-box{
+    background:#fefefe;
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.20);
+    line-height: 20px;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: #707070;
+    text-align: center;
+    position: relative;
+    left: -40px;
+    bottom: 5px;
+    z-index: 500;
+    display: none;
+    
+
+}
+.tooltip:hover .tooltip-box{
+display: inline-block;
+left: 0;
+
+}
+.listado h4{
+    color: #414040;
+    font-size:14px;
+    font-weight: bold;
+    display: inline-block;
+}
+.listado p{
+    color: #999;
+    font-size:10px;
+    
+}
+.listado .agregar{
+    
+    background-color: #08b9af;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    color: #fff;
+    border-style: none;
+    border-radius: 6px;
+    padding: 8px 15px;
+    letter-spacing: .5px;
+    font-size: 10px;
+    font-weight: 900;
+    cursor: pointer;
+    
+
+}
+.searching{
+    width: 23%;
+    background-color:none;
+    position: absolute;
+    right: 0;
+    top: 4%;
+    padding: 10px 8px;
+    box-sizing: border-box;
+    height: 92vh;
+    box-sizing: border-box;
+
+}
+.searching input{
+    background-color: #f2f6f9;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    width: 90%;
+    margin-left: 15px;
+    outline: none;
+    border-style: none;
+    font-size: 12px;
+    color: #444;
+}
+.searching input::placeholder{
+    font-size: 10px;
+    letter-spacing: .5px;
+    padding-left: 20px;
+}
+.footer{
+   width: 100%;   
+    text-align: center;
+    background: rgba(194, 47, 91, 0.576);
+    position: absolute;
+    bottom: 0; 
+    color: #fff;
+}
