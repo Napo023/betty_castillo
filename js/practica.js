@@ -1,2 +1,2 @@
-datos = ['Ariel','24','Ecuador'];
-alert(datos);
+/*datos = ['Ariel','24','Ecuador'];
+alert(datos);*/
